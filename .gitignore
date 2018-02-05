@@ -1,0 +1,9 @@
+.**
+!.gitignore
+**.MF
+**.iml
+**.jar
+**.sh
+**/target/
+**/lib/
+**/classes/
