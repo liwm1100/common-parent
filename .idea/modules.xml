@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-bizLog/common-bizLog.iml" filepath="$PROJECT_DIR$/common-bizLog/common-bizLog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-cache/common-cache.iml" filepath="$PROJECT_DIR$/common-cache/common-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent.iml" filepath="$PROJECT_DIR$/common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-security/common-security.iml" filepath="$PROJECT_DIR$/common-security/common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-util/common-util.iml" filepath="$PROJECT_DIR$/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-web/common-web.iml" filepath="$PROJECT_DIR$/common-web/common-web.iml" />
+    </modules>
+  </component>
+</project>
