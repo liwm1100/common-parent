@@ -11,18 +11,18 @@ import java.io.Serializable;
  */
 public class OrganizationInfo implements Serializable ,Cloneable{
     private static final long serialVersionUID = 1382940210792297850L;
-    private long organizaitonId ;
+    private long organizationId ;
     private String organizationCode;
     private long organizationParent;
-    private String organizaitonPath;
+    private String organizationPath;
     private String organizationName;
 
-    public long getOrganizaitonId() {
-        return organizaitonId;
+    public long getOrganizationId() {
+        return organizationId;
     }
 
-    public void setOrganizaitonId(long organizaitonId) {
-        this.organizaitonId = organizaitonId;
+    public void setOrganizationId(long organizationId) {
+        this.organizationId = organizationId;
     }
 
     public String getOrganizationCode() {
@@ -42,11 +42,11 @@ public class OrganizationInfo implements Serializable ,Cloneable{
     }
 
     public String getOrganizaitonPath() {
-        return organizaitonPath;
+        return organizationPath;
     }
 
-    public void setOrganizaitonPath(String organizaitonPath) {
-        this.organizaitonPath = organizaitonPath;
+    public void setOrganizationPath(String organizationPath) {
+        this.organizationPath = organizationPath;
     }
 
     public String getOrganizationName() {
@@ -64,8 +64,8 @@ public class OrganizationInfo implements Serializable ,Cloneable{
     @Override
     public OrganizationInfo clone(){
         OrganizationInfo i = new OrganizationInfo();
-        i.setOrganizaitonId(this.getOrganizaitonId());
-        i.setOrganizaitonPath(this.getOrganizaitonPath());
+        i.setOrganizationId(this.getOrganizationId());
+        i.setOrganizationPath(this.getOrganizationPath());
         i.setOrganizationCode(this.getOrganizationCode());
         i.setOrganizationName(this.getOrganizationName());
         i.setOrganizationParent(this.getOrganizationParent());
